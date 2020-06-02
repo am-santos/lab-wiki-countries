@@ -1,6 +1,18 @@
+.nav-bar {
+  position: fixed;
+  background-color: white;
+  width: 50%;
+}
+
 .wiki-countries {
   display: flex;
   flex-direction: row;
+}
+
+.country-details {
+  position: fixed;
+  margin-left: 2em;
+  /* margin-top: -2em; */
 }
 
 .left-column {

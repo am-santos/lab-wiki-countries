@@ -12,7 +12,7 @@ class CountryDetail extends Component {
           })
           .map(country => {
             return (
-              <div key={country.flag}>
+              <div key={country.flag} className="country-details">
                 <img
                   src={`https://www.countryflags.io/${country.cca2}/flat/64.png`}
                   alt=""

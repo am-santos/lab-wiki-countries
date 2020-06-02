@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import CountryDetail from './CountryDetail';
 
@@ -10,9 +11,9 @@ class CountriesList extends Component {
         <ul>
           {countries.map(country => {
             return (
-              <a href={`/${country.name.official}`} key={country.flag}>
+              <Link to={`/${country.name.official}`} key={country.flag}>
                 {country.name.common} <br />
-              </a>
+              </Link>
             );
           })}
         </ul>

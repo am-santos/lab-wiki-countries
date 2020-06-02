@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <nav>
+        <nav className="nav-bar">
           <h3>
             {' '}
             <strong>WikiCountries</strong>{' '}
